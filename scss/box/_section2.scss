@@ -4,15 +4,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+
+
+}
+
+.classes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rec {
+    list-style: none;
+
+    .audioclass {
+        width: 333px;
+        height: 100px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        border: none;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 0 15px;
+    }
+
+    .sect2item {
+        h4 {
+            margin: 0 20px;
+            text-decoration: none;
+            width: 189px;
+            height: 25px;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 25px;
+        }
+    }
 }
 
 
-
-
 .container2 {
-    
+
     width: 1136px;
     display: flex;
     justify-content: center;
@@ -38,7 +70,8 @@
         text-align: center;
         color: #5D5A6F;
     }
-    .sect2img{
+
+    .sect2img {
         width: 864px;
         height: 488px;
     }
@@ -52,9 +85,11 @@
     flex-direction: row;
 
 }
-.sect2item{
+
+.sect2item {
     margin: 0 30px;
-    a{
+
+    a {
         text-decoration: none;
     }
 }
@@ -82,15 +117,36 @@
         line-height: 25px;
     }
 }
-@media (max-width: 1198px){
+
+@media (max-width: 1198px) {
     .container2 {
-    
+        .rec {
+            list-style: none;
+
+            .audioclass {
+                width: 275px;
+                height: 84px;
+            }
+
+            .sect2item {
+                h4 {
+                    margin: 0 12px;
+                    text-decoration: none;
+                    width: 191px;
+                    height: 20px;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+            }
+        }
+
         width: 917px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    
+
         h2 {
             width: 432px;
             height: 80px;
@@ -100,7 +156,7 @@
             color: #0A033C;
             text-align: center;
         }
-    
+
         p {
             width: 703px;
             height: 84px;
@@ -110,27 +166,30 @@
             text-align: center;
             color: #5D5A6F;
         }
-        .sect2img{
+
+        .sect2img {
             width: 864px;
             height: 488px;
         }
     }
-    
+
     .sect2list {
         list-style: none;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
-    
+
     }
-    .sect2item{
+
+    .sect2item {
         margin: 0 15px;
-        a{
+
+        a {
             text-decoration: none;
         }
     }
-    
+
     .audioclass {
         width: 255px;
         height: 84px;
@@ -142,7 +201,7 @@
         flex-direction: row;
         padding: 0 10px;
     }
-    
+
     .sect2list {
         h4 {
             margin: 0 12px;
@@ -155,15 +214,16 @@
         }
     }
 }
-@media (max-width: 882px){
+
+@media (max-width: 882px) {
     .container2 {
-    
+
         width: 917px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    
+
         h2 {
             width: 432px;
             height: 80px;
@@ -173,7 +233,7 @@
             color: #0A033C;
             text-align: center;
         }
-    
+
         p {
             width: 703px;
             height: 84px;
@@ -183,30 +243,66 @@
             text-align: center;
             color: #5D5A6F;
         }
-        .sect2img{
-            width: 864px;
-            height: 488px;
+
+        .sect2img {
+            width: 509px;
+            height: 428px;
+        }
+
+        .rec {
+            list-style: none;
+
+            .audioclass {
+                width: 195px;
+                height: 44px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                border: none;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                padding: 0 10px;
+            }
+
+            .sect2item {
+                h4 {
+                    margin: 0 12px;
+                    text-decoration: none;
+                    width: 106px;
+                    height: 14px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+            }
         }
     }
-    
+
     .sect2list {
         list-style: none;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
-    
+
     }
-    .sect2item{
+
+    .sect2item {
         margin: 0 15px;
-        a{
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+
+        a {
             text-decoration: none;
         }
     }
-    
+
     .audioclass {
-        width: 255px;
-        height: 84px;
+        width: 185px;
+        height: 44px;
         background: #FFFFFF;
         border-radius: 8px;
         border: none;
@@ -215,16 +311,62 @@
         flex-direction: row;
         padding: 0 10px;
     }
-    
+
     .sect2list {
         h4 {
             margin: 0 12px;
             text-decoration: none;
-            width: 151px;
-            height: 20px;
+            width: 96px;
+            height: 14px;
             font-weight: 600;
-            font-size: 20px;
-            line-height: 20px;
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+}
+
+@media (max-width: 725px) {
+    .sect2 {
+        .container2 {
+            p {
+                width: 500px;
+            }
+        }
+    }
+}
+
+@media (max-width: 675px) {
+    .sect2 {
+
+        .container2 {
+            .classes{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .rec {
+                list-style: none;
+                margin: 20px 0;
+            }
+        }
+    }
+}
+@media (max-width: 535px){
+    .container2{
+        padding: 0 15px;
+        .h2{
+            width: 298px;
+            height: 116;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 30px;
+        }
+        .p{
+            width: 300px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+           
         }
     }
 }
